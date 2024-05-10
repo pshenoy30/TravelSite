@@ -47,3 +47,46 @@ width: 31rem;
     border-bottom: 0.3rem solid #DB7A4E;
 }
 
+.footer__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: #FEFAF5;
+}
+
+.footer__container__title{
+    font-size: 2rem;
+    font-weight: 300;
+    color:#335576;
+}
+
+.footer__container__subtitle{
+    font-size: 0.5rem;
+    font-weight: 400;
+    color:#DB7A4E;
+    text-transform: uppercase;
+}
+
+.footer__container__description{
+    color:#335576;
+
+}
+
+.footer__container__sub__container--no-flex{ 
+    margin-top: 2.7rem;
+ } 
+
+.footer__container__sub__container{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.footer__container__sub__container__image img{
+    height: 1.5rem;
+}
+
+.footer__container__sub__container__image{
+    padding-top: 1.5rem;
+}
+
