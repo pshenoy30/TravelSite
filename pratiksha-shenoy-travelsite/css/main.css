@@ -103,3 +103,7 @@
     bottom: 0;
     padding-right: 2rem;
 }
+
+.destinations__container__cards__link:hover{
+    opacity: 40%;
+}
