@@ -10,6 +10,16 @@
     background-size: cover;
 }
 
+.hero-section__container__title{
+    font-size: 3.75rem;
+    color: #ffffff;
+    padding: 2.5rem;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0 0 1.75rem 0;
+}
+
 .itinerary__container__cards{
     display: flex;
     gap: 3rem;
