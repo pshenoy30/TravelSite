@@ -2,6 +2,14 @@
     background-image: url("/assets/images/hawaii.jpg");
 }
 
+.hero-section__container--iceland{
+    background-image: url("/assets/images/iceland.jpg");
+}
+
+.hero-section__container--greece{
+    background-image: url("/assets/images/greece.jpg");
+}
+
 .hero-section__container{
     background-repeat: no-repeat;
     width: 100vw;

@@ -42,14 +42,15 @@ li{
 
 .nav-card__container__right__items__link{
     text-decoration: none;
-    color: 000000;
+    color: #000000;
     padding-bottom: 0.5rem;
 }
 
-.nav-card__container__right__items__link:link{
-    text-decoration: none;
-    color: #00000;
+.nav-card__container__right__items__link:hover{
+    border-bottom: 0.3rem solid #DB7A4E;
 }
+
+
 .nav-card__container__right__items__link--border{
     border-bottom: 0.3rem solid #DB7A4E;
 }
