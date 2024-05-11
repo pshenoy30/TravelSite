@@ -17,7 +17,7 @@
 
 .nav-card__container__left__heading{
     color:#335576;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-left: 60px;
 }
@@ -25,7 +25,6 @@
 .nav-card__container__right__items{
     font-size: 1.3em;
     font-weight: 400;
-    list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,12 +36,20 @@
 width: 31rem;
 }
 
+li{
+    list-style-type: none; 
+}
 
 .nav-card__container__right__items__link{
     text-decoration: none;
-    color: #393939;
+    color: 000000;
+    padding-bottom: 0.5rem;
 }
 
+.nav-card__container__right__items__link:link{
+    text-decoration: none;
+    color: #00000;
+}
 .nav-card__container__right__items__link--border{
     border-bottom: 0.3rem solid #DB7A4E;
 }
@@ -89,4 +96,5 @@ width: 31rem;
 .footer__container__sub__container__image{
     padding-top: 1.5rem;
 }
+
 
