@@ -1,0 +1,61 @@
+.hero-section__container__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.hero-section__container__form__email{
+    padding-left: 2.5rem;
+}
+
+.hero-section__container__title{
+    font-size: 3.25rem;
+    color: #335576;
+    padding-bottom: 40px;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.hero-section__container__form__label{
+    color: #DB7A4E;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+input[type=submit]{
+    background-color: #335576;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15rem;
+}
+
+input[type=text]{
+    background-color: #335576;
+    color: #ffffff;
+}
+
+input[type=email]{
+    background-color: #335576;
+    color: #ffffff;
+}
+
+select{
+    background-color: #335576;
+    color: #ffffff;
+    width: 16rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+textarea{
+    background-color: #335576;
+    color: #ffffff;
+}
