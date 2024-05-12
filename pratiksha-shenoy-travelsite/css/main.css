@@ -9,6 +9,7 @@
 .hero-section__container__right{
     width: 30rem;
     padding: 4rem;
+    margin-right: 3rem;
 }
 
 .hero-section__container__right img{
@@ -16,24 +17,21 @@
 }
 
 .hero-section__container__left {
-    padding: 5rem;
+    margin-left: 7rem;
 }
 
 .hero-section__container__left__title{
-    font-size: 3.25rem;
+    font-size: 2.55rem;
     color: #335576;
-    padding-bottom: 40px;
-    text-align: left;
-    text-transform: capitalize;
-    font-weight: 600;
+    margin: 2.5rem 0;
 }
 
 .hero-section__container__left__company-description{
-    font-size: 1.125em;
+    font-size: 1rem;
     font-weight: 400;
     color: #335576;
     word-wrap: break-word;
-    padding-bottom: 40px;
+    margin: 2.5rem 0;
     text-align: left;
 }
 
@@ -41,58 +39,43 @@
     background-color:#DB7A4E;
     color: #fff;
     border: none;
-    border-radius: 5%;
     font-size: 1.13em;
-    font-weight: 400;
-    padding: 20px;
+    font-weight: 300;
+    padding: 0.65rem;
     border-radius: 40rem;
     width: 34%;
 }
 
 .destinations__container__title{
     color: #335576;
-    font-size: 3.5em;
-    font-weight: 600;
-    text-align: left;
-    padding: 5rem;
+    padding: 5rem 0 2.5rem 0;
+    font-size: 1.7rem;
+    margin: 0 7rem;
 }
 
 .destinations__container__cards{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 40px;
-}
+    margin-bottom: 7rem;
+} 
 
 .destinations__container__cards__card{
-    Width: 18rem;
-    Height: 27rem;
-    box-sizing: border-box;
-    border-radius: 5px;
     border: 1px solid #000000;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.20);
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .destinations__container__cards__card__hawaii{
     background-image: url("/assets/images/hawaii.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .destinations__container__cards__card__iceland{
     background-image: url("/assets/images/iceland.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .destinations__container__cards__card__greece{
     background-image: url("/assets/images/greece.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .destinations__container__cards__card__title{

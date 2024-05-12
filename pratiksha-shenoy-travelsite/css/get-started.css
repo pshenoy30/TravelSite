@@ -1,21 +1,38 @@
 .hero-section__container__form{
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: center;
+    gap: 3rem;
+    background-color: #FEFAF5;
+    padding: 2rem;
+    justify-content: center;
 }
 
-.hero-section__container__form__email{
-    padding-left: 2.5rem;
+.hero-section__container__form__labels{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    gap: 2rem;
+}
+
+.hero-section__container__form__inputs{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    gap: 2.1rem;
+}
+
+.hero-section__container__title--decoration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFAF5; ;
 }
 
 .hero-section__container__title{
-    font-size: 3.25rem;
+    font-size: 2.85rem;
     color: #335576;
-    padding-bottom: 40px;
-    text-align: left;
-    text-transform: capitalize;
-    font-weight: 600;
+    text-align: center;
+    width: 28%;
+    border-bottom: 5px solid #335576;
 }
 
 .hero-section__container__form__label{
@@ -23,6 +40,7 @@
     font-size: 1.3em;
     font-weight: 400;
     text-transform: capitalize;
+    align-self: end;
 }
 
 input[type=submit]{
@@ -38,24 +56,22 @@ input[type=submit]{
 }
 
 input[type=text]{
-    background-color: #335576;
-    color: #ffffff;
+    color: #335576;
+    font-size: 1rem;
 }
 
 input[type=email]{
-    background-color: #335576;
-    color: #ffffff;
+    color: #335576;
+    font-size: 1rem;
 }
 
 select{
-    background-color: #335576;
-    color: #ffffff;
-    width: 16rem;
+    color: #335576;
     text-align: center;
     font-size: 1rem;
 }
 
 textarea{
-    background-color: #335576;
-    color: #ffffff;
+    color: #335576;
+    font-size: 1rem;
 }

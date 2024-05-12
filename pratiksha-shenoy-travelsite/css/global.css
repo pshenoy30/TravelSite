@@ -17,19 +17,19 @@
 
 .nav-card__container__left__heading{
     color:#335576;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
-    margin-left: 60px;
+    margin-left: 7rem;
 }
 
 .nav-card__container__right__items{
-    font-size: 1.3em;
+    font-size: 1rem;
     font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin-right: 2rem;
+    gap: 2.5rem;
+    margin-right: 7rem;
 }
 
 .nav-card__container__right__items img{
@@ -53,6 +53,29 @@ li{
 
 .nav-card__container__right__items__link--border{
     border-bottom: 0.3rem solid #DB7A4E;
+}
+
+.title{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.card__container{
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    background-color: #ffffff;
+    Width: 18rem;
+    height: 26rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .footer__container{

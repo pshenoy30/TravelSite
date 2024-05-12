@@ -26,27 +26,29 @@
     </header>
     <main>
         <section class="hero-section__container">
-            <h1 class="hero-section__container__title">Contact Form</h1>
+            <div class="hero-section__container__title--decoration">
+                <h1 class="title hero-section__container__title">Contact Form</h1>
+            </div>
             <form class="hero-section__container__form">
-                <label for="first-name" class="hero-section__container__form__label">First Name: 
-                    <input type="text" id="first-name" name="first-name" class="hero-section__container__form__input" />
-                </label>
-                <label for="last-name" class="hero-section__container__form__label">Last Name: 
-                    <input type="text" id="last-name" name="last-name" class="hero-section__container__form__input"/>
-                </label>
-                <label for="email" class="hero-section__container__form__label hero-section__container__form__email">Email: 
-                    <input type="email" id="email" name="email" class="hero-section__container__form__input" />
-                </label>
-                <label for="destination" class="hero-section__container__form__label hero-section__container__form__dropdown">Select a destination
+                <div class="hero-section__container__form__labels">
+                    <label for="first-name" class="hero-section__container__form__label">First Name:</label>
+                    <label for="last-name" class="hero-section__container__form__label">Last Name:</label>
+                    <label for="email" class="hero-section__container__form__label hero-section__container__form__email">Email:</label>
+                    <label for="destination" class="hero-section__container__form__label hero-section__container__form__dropdown">Select a destination:</label>
+                    <label for="message" class="hero-section__container__form__label">Message:</label>
+                </div>
+                <div class="hero-section__container__form__inputs">
+                    <input type="text" id="first-name" name="first-name" placeholder="Jane" class="hero-section__container__form__input" />
+                    <input type="text" id="last-name" name="last-name" placeholder="Doe" class="hero-section__container__form__input"/>
+                    <input type="email" id="email" name="email" placeholder="janedoe@abc.com" class="hero-section__container__form__input" />
                     <select id="destination" name="destination" class="hero-section__container__form__input">
                         <option value="Hawaii">Hawaii</option>
                         <option value="Iceland">Iceland</option>
                         <option value="Greece">Greece</option>
                     </select>
-                </label>
-                <label for="message" class="hero-section__container__form__label">Message</label>
-                <textarea id="message" name="message" rows="10" cols="50" class="hero-section__container__form__input"></textarea>
-                <input type="submit" />
+                    <textarea id="message" name="message" rows="10" cols="50" placeholder="I wanted to enquire about the Hawaii package" class="hero-section__container__form__input"></textarea>
+                    <input type="submit" />
+                </div>
             </form>
     </main>
     <footer class="footer__container">
