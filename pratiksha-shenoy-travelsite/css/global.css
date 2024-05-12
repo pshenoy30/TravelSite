@@ -40,8 +40,11 @@ li{
     list-style-type: none; 
 }
 
-.nav-card__container__right__items__link{
+a{
     text-decoration: none;
+}
+
+.nav-card__container__right__items__link{
     color: #000000;
     padding-bottom: 0.5rem;
 }
