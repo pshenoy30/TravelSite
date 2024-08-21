@@ -18,7 +18,11 @@ TravelSite is a basic travel destination website with information regarding 3 de
 - HTML
 - CSS
 
-## Mockups
+## Site Images
+<img width="100%" src="pratiksha-shenoy-travelsite/assets/images/Home Page.png" alt="Home Page Mockup" />
+<img width="100%" src="pratiksha-shenoy-travelsite/assets/images/Iceland Page.png" alt="Iceland Page Mockup" />
+<img width="100%" src="pratiksha-shenoy-travelsite/assets/images/Greece Page.png" alt="Greece Page Mockup" />
+<img width="100%" src="pratiksha-shenoy-travelsite/assets/images/Hawaii Page.png" alt="Hawaii Page Mockup" />
 
 ## Success Criteria
 1. The website is responsive in mobile, tablet and desktop
